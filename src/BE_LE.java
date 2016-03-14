@@ -157,16 +157,6 @@ public class BE_LE {
         return ans;
     }
 
-    private void BE_print(String temp) {
-        for (int i = 0; i < temp.length(); i++) {
-            if (i % 4 == 0) {
-                System.out.print("\n" + temp.charAt(i));
-            } else {
-                System.out.print(temp.charAt(i));
-            }
-        }
-    }
-
     private void BE_display() {
         for (int i = 0; i < output.size(); i++) {
             System.out.print("\t");
